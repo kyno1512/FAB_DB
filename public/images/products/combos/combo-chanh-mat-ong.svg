@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Combo Chanh M�t Ong">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fffff5"/><stop offset="100%" stop-color="#fff8dc"/>
+    </linearGradient>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <g filter="url(#sh)">
+    <path d="M88 140h56v170c0 12-56 12-56 0V140z" fill="#fff"/>
+    <path d="M96 156h40v138H96z" fill="#f4d03f"/>
+    <circle cx="116" cy="200" r="12" fill="#fff176"/>
+    <path d="M220 190c0-36 40-64 72-64s72 28 72 64v40c0 36-40 44-72 44s-72-8-72-44v-40z" fill="#e8b87a"/>
+    <path d="M236 178c0-24 32-40 56-40s56 16 56 40" fill="none" stroke="#f5deb3" stroke-width="6"/>
+  </g>
+  <text x="200" y="360" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="20" fill="#b8860b" font-weight="600">Chanh M�t Ong</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Combo Tr� S�a v� B�nh">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff8f5"/><stop offset="100%" stop-color="#ffe8dc"/>
+    </linearGradient>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <g filter="url(#sh)">
+    <path d="M88 130h60v180c0 12-60 12-60 0V130z" fill="#fff"/>
+    <path d="M96 148h44v144H96z" fill="#d4a574"/>
+    <circle cx="108" cy="260" r="6" fill="#2d2d2d"/><circle cx="124" cy="268" r="6" fill="#2d2d2d"/>
+    <circle cx="116" cy="252" r="6" fill="#2d2d2d"/>
+    <rect x="210" y="200" width="110" height="90" rx="8" fill="#4a2c17"/>
+    <rect x="222" y="212" width="86" height="66" rx="4" fill="#6b3a1f"/>
+  </g>
+  <text x="200" y="360" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="20" fill="#8b4513" font-weight="600">Tr� S�a &amp; B�nh</text>
+</svg>

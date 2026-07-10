@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Macaron Ph�p">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff8fb"/>
+      <stop offset="100%" stop-color="#f3ece8"/>
+    </linearGradient>
+    <linearGradient id="pinkTop" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffb8d2"/>
+      <stop offset="100%" stop-color="#f06b9d"/>
+    </linearGradient>
+    <linearGradient id="greenTop" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#b8e8c8"/>
+      <stop offset="100%" stop-color="#58b67d"/>
+    </linearGradient>
+    <linearGradient id="yellowTop" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffe59a"/>
+      <stop offset="100%" stop-color="#f0b429"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <g filter="url(#shadow)">
+    <g transform="translate(58 118)">
+      <ellipse cx="72" cy="78" rx="72" ry="34" fill="url(#pinkTop)"/>
+      <rect x="0" y="74" width="144" height="18" fill="#fff7fb"/>
+      <ellipse cx="72" cy="92" rx="72" ry="34" fill="#e45788"/>
+    </g>
+    <g transform="translate(128 168)">
+      <ellipse cx="72" cy="78" rx="72" ry="34" fill="url(#greenTop)"/>
+      <rect x="0" y="74" width="144" height="18" fill="#f7fff9"/>
+      <ellipse cx="72" cy="92" rx="72" ry="34" fill="#469a67"/>
+    </g>
+    <g transform="translate(198 98)">
+      <ellipse cx="72" cy="78" rx="72" ry="34" fill="url(#yellowTop)"/>
+      <rect x="0" y="74" width="144" height="18" fill="#fffaf0"/>
+      <ellipse cx="72" cy="92" rx="72" ry="34" fill="#d89a18"/>
+    </g>
+  </g>
+  <circle cx="92" cy="86" r="10" fill="#ffffff" opacity="0.35"/>
+  <circle cx="248" cy="118" r="8" fill="#ffffff" opacity="0.28"/>
+</svg>

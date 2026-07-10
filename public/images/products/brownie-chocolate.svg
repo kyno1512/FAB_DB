@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Brownie chocolate">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f7efe6"/>
+      <stop offset="100%" stop-color="#eadfce"/>
+    </linearGradient>
+    <linearGradient id="brownie" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3420"/>
+      <stop offset="55%" stop-color="#3d2214"/>
+      <stop offset="100%" stop-color="#2a160d"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <rect x="72" y="92" width="256" height="216" rx="18" fill="url(#brownie)"/>
+  <rect x="72" y="92" width="256" height="216" rx="18" fill="url(#shine)"/>
+  <g stroke="#241208" stroke-opacity="0.35" stroke-width="3">
+    <line x1="200" y1="92" x2="200" y2="308"/>
+    <line x1="72" y1="200" x2="328" y2="200"/>
+  </g>
+  <g fill="#1f120a" opacity="0.55">
+    <circle cx="118" cy="138" r="5"/>
+    <circle cx="152" cy="166" r="4"/>
+    <circle cx="186" cy="142" r="4.5"/>
+    <circle cx="228" cy="158" r="5"/>
+    <circle cx="268" cy="136" r="4"/>
+    <circle cx="142" cy="236" r="4.5"/>
+    <circle cx="182" cy="252" r="4"/>
+    <circle cx="236" cy="244" r="5"/>
+    <circle cx="284" cy="226" r="4"/>
+    <circle cx="108" cy="268" r="4"/>
+  </g>
+  <path d="M92 118 C130 96, 170 88, 200 92 C230 96, 270 104, 308 118" fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="8" stroke-linecap="round"/>
+</svg>

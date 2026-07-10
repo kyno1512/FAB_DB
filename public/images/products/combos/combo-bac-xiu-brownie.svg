@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Combo B�c X�u Brownie">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff9f0"/><stop offset="100%" stop-color="#f5e6d3"/>
+    </linearGradient>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <g filter="url(#sh)">
+    <path d="M80 140h48v170c0 12-48 12-48 0V140z" fill="#fff"/>
+    <path d="M88 156h32v138H88z" fill="#d4a574"/>
+    <rect x="200" y="190" width="120" height="100" rx="8" fill="#4a2c17"/>
+    <rect x="212" y="202" width="96" height="76" rx="4" fill="#6b3a1f"/>
+    <path d="M212 230h96" stroke="#3d2314" stroke-width="4"/>
+  </g>
+  <text x="200" y="360" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="18" fill="#5c3317" font-weight="600">B�c X�u Brownie</text>
+</svg>

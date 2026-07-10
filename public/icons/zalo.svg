@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Zalo">
+  <rect width="48" height="48" rx="11" fill="#0068FF"/>
+  <path
+    fill="#ffffff"
+    d="M24 11.5c-7.45 0-13.5 5.02-13.5 11.22 0 3.65 1.98 6.9 5.08 9.02L13.5 38l6.85-4.3a13.6 13.6 0 0 0 3.65.48c7.45 0 13.5-5.02 13.5-11.22S31.45 11.5 24 11.5zm-3.75 14.25h-2.5v-7.5h2.5v7.5zm5 0h-2.5v-7.5h2.5v7.5zm5 0h-2.5v-7.5h2.5v7.5z"
+  />
+</svg>

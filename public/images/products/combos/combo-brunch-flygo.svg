@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Combo Brunch Flygo">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fffaf5"/><stop offset="100%" stop-color="#f0e4d8"/>
+    </linearGradient>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <g filter="url(#sh)">
+    <ellipse cx="120" cy="230" rx="56" ry="36" fill="#c4a574"/>
+    <path d="M100 210c20-16 40-16 40 0" fill="none" stroke="#8b6914" stroke-width="4"/>
+    <path d="M200 150h40v160c0 10-40 10-40 0V150z" fill="#fff"/>
+    <path d="M206 164h28v136h-28z" fill="#c4a484"/>
+    <ellipse cx="220" cy="158" rx="18" ry="7" fill="#fff"/>
+    <circle cx="300" cy="220" r="36" fill="#8b6914"/>
+    <circle cx="300" cy="216" r="20" fill="#6b4423"/>
+  </g>
+  <text x="200" y="360" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="22" fill="#6b5344" font-weight="600">Brunch Flygo</text>
+</svg>
