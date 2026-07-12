@@ -1,0 +1,48 @@
+# Build results
+bin/
+obj/
+out/
+
+# VS
+.vs/
+*.user
+*.suo
+*.cache
+*.dll
+*.exe
+*.pdb
+
+# Node
+node_modules/
+dist/
+build/
+
+# Logs
+*.log
+*.tlog
+
+# Secrets
+*.env
+*.env.local
+*.env.*.local
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Database
+*.mdf
+*.ldf
+*.sqlite
+
+# Temp
+temp/
+tmp/
+*.tmp
+
+# Backup
+*.bak
