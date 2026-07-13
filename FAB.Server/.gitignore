@@ -1,0 +1,30 @@
+# Build outputs
+bin/
+obj/
+
+# User secrets / local config
+appsettings.json
+appsettings.Production.json
+appsettings.Local.json
+secrets.json
+
+# IDE
+.vs/
+.idea/
+*.user
+*.rsuser
+*.suo
+*.userprefs
+*.cache
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Node
+node_modules/
+dist/
+build/
+.env
+.env.*.local

@@ -1,0 +1,6 @@
+@FAB.Server_HostAddress = http://localhost:5136
+
+GET {{FAB.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
