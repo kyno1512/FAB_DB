@@ -149,6 +149,15 @@ using (var scope = app.Services.CreateScope())
 
     try
     {
+        await db.Database.MigrateAsync();
+    }
+    catch (Exception ex)
+    {
+        logger.LogError(ex, "Không thể áp dụng migrations.");
+    }
+
+    try
+    {
         await FAB.Server.Infrastructure.ReviewSchemaInitializer.EnsureAsync(db);
     }
     catch (Exception ex)
